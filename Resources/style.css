@@ -1,1 +1,131 @@
+/* Universal Style */
 
+html {
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main-content {
+    position: relative;
+    top: 5.3125rem; /* To offset for fixed header. */
+  }
+  
+  .center {
+    text-align: center;
+  }
+
+  .image-container {
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+  }
+  
+  .image-container img {
+    display: block;
+    max-height: 100%;
+    width: auto;
+  }
+
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+/* Header */
+
+header {
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    background-color: brown;
+}
+
+header .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+header .icon {
+    width: 4rem;
+}
+
+header .mobile {
+    display: none;
+}
+
+header nav ul {
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+nav li {
+    padding-left: 3.5rem;
+}
+
+header .desktop_name {
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 0.5rem;
+    padding-right: 5rem;
+}
+
+/* Banner */
+
+.banner {
+    background-image: url(./Images/Banner_updated.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 28.5rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.banner h2 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    position: relative;
+    left: 15%;
+    top: 22%;
+    color: blanchedalmond;
+    line-height: 2rem;
+}
+
+/* Animal Types */
+
+#animal_types {
+    background: brown;
+    padding: 2rem;
+}
+
+#animal_types h2 {
+    color: blanchedalmond;
+    font-size: 1.7rem;
+    letter-spacing: 0.2em;
+}
+
+#animal_types .images-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    padding: 2% 2%;
+}
+
+#animal_types .content h2 {
+    font-size: 1.4rem;
+    padding-top: 1%;
+    cursor: pointer;
+}
