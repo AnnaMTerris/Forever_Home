@@ -1,8 +1,15 @@
 /* Universal Style */
 
+/* Color Theme Swatches in RGBA */
+.Forever-Home-Animal-Rescue-1-rgba { color: rgba(192, 79, 255, 1); }
+.Forever-Home-Animal-Rescue-2-rgba { color: rgba(255, 69, 153, 1); }
+.Forever-Home-Animal-Rescue-3-rgba { color: rgba(246, 110, 255, 1); }
+.Forever-Home-Animal-Rescue-4-rgba { color: rgba(37, 5, 105, 0.904) }
+.Forever-Home-Animal-Rescue-5-rgba { color: rgba(255, 77, 69, 1); }
+
 html {
     font-size: 16px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
 * {
@@ -41,7 +48,7 @@ header {
     position: fixed;
     z-index: 5;
     width: 100%;
-    background-color: brown;
+    background-color: rgba(37, 5, 105, 0.904);
 }
 
 header .content {
@@ -101,13 +108,13 @@ header .desktop_name {
     left: 15%;
     top: 22%;
     color: blanchedalmond;
-    line-height: 2rem;
+    line-height: 2.5rem;
 }
 
 /* Animal Types */
 
 #animal_types {
-    background: brown;
+    background: rgba(37, 5, 105, 0.904);
     padding: 2rem;
 }
 
@@ -119,13 +126,39 @@ header .desktop_name {
 
 #animal_types .images-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     max-width: 100%;
     padding: 2% 2%;
 }
 
-#animal_types .content h2 {
-    font-size: 1.4rem;
-    padding-top: 1%;
+#animal_types button {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 5px;
+    margin-top: 2%;
+    background-color: rgba(246, 110, 255, 1);
+    color: rgba(37, 5, 105, 1);
+    width: 33%;
+    font-weight: bold;
+}
+
+#animal_types button:hover {
     cursor: pointer;
+}
+
+#animal_types button:active {
+    margin-top: 5px;
+    color: black;
+    box-shadow: 0px 0px;
+}
+
+/* Meet the Team */
+
+#team_members .images-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 4rem 5%;
 }
