@@ -23,6 +23,7 @@ html {
   
   .center {
     text-align: center;
+    margin: auto 0;
   }
 
   .image-container {
@@ -73,6 +74,8 @@ header nav ul {
 nav a {
     text-decoration: none;
     color: blanchedalmond;
+    font-size: 1rem;
+    line-height: 1.6rem;
 }
 
 nav li {
@@ -102,7 +105,7 @@ header .desktop_name {
 }
 
 .banner h2 {
-    font-size: 1.7rem;
+    font-size: 2.25rem;
     font-weight: bold;
     position: relative;
     left: 15%;
@@ -118,10 +121,21 @@ header .desktop_name {
     padding: 2rem;
 }
 
+#animal_types img:hover {
+    cursor: pointer;
+}
+
 #animal_types h2 {
     color: blanchedalmond;
-    font-size: 1.7rem;
+    font-size: 2.25rem;
     letter-spacing: 0.2em;
+}
+
+#animal_types h3 {
+    color: blanchedalmond;
+    font-size: 1rem;
+    line-height: 2.2;
+    font-weight: 300;
 }
 
 #animal_types .images-container {
@@ -160,5 +174,41 @@ header .desktop_name {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 4rem 5%;
+    padding: 2%;
+    max-width: 100%;
+}
+
+.team {
+    background-color: rgba(255, 77, 69, 1);
+    width: 15rem;
+    padding: 3rem;
+}
+
+#team_members h2 {
+    color: rgba(37, 5, 105, 0.904);
+    font-size: 2.25rem;
+    letter-spacing: 0.1em;
+    padding-top: 2rem;
+}
+
+#team_members h3 {
+    color: rgba(37, 5, 105, 0.904);
+    font-size: 1rem;
+    line-height: 2.2;
+    font-weight: 300;
+}
+
+#team_members .name {
+    padding: 0.8rem 0;
+}
+
+#team_members .name h2 {
+    color: rgba(37, 5, 105, 0.904);
+    font-size: 1.5rem;
+}
+
+#team_members .name h3 {
+    color: rgba(37, 5, 105, 0.904);
+    font-size: 1rem;
+    line-height: 1.6;
 }
