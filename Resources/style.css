@@ -186,6 +186,7 @@ header .desktop_name {
     background-color: rgba(255, 77, 69, 1);
     width: 15rem;
     padding: 3rem;
+    border-radius: 5px;
 }
 
 #team_members h2 {
@@ -249,4 +250,60 @@ form {
     padding-top: 1rem;
 }
 
+form label {
+    color:rgba(37, 5, 105, 1);
+}
+
+form input {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+form .submit {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 5px;
+    background-color: rgba(37, 5, 105, 1);
+    color: blanchedalmond;
+    width: 9%;
+    font-weight: bold;
+    text-align: center;
+}
+
+form .submit:hover {
+    cursor: pointer;
+}
+
+form .submit:active {
+    margin-top: 5px;
+    box-shadow: 0px 0px;
+}
+
 /* Footer */
+
+footer {
+    height: 100px;
+    width: 100%;
+}
+
+.social img {
+    max-height: 2rem;
+    width: auto;
+}
+
+footer .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    padding-right: 1rem;
+}
+
+.social a {
+    padding-left: 1rem;
+}
