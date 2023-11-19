@@ -284,8 +284,10 @@ form .submit:active {
 /* Footer */
 
 footer {
-    height: 100px;
+    height: 4rem;
     width: 100%;
+    color: blanchedalmond;
+    background-color: rgba(37, 5, 105, 0.904);
 }
 
 .social img {
@@ -302,6 +304,7 @@ footer .content {
 .social {
     display: flex;
     padding-right: 1rem;
+    padding-top: 1rem;
 }
 
 .social a {
